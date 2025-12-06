@@ -20,7 +20,7 @@ body {
 }
 
 .navbar-brand img {
-    height: 70px;
+    height:100px;
 }
 
 .navbar-nav .nav-link {
@@ -55,7 +55,6 @@ body {
 /* Hero Section */
 .hero-section {
     background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
-    min-height: 90vh;
     display: flex;
     align-items: center;
     position: relative;
@@ -152,7 +151,7 @@ body {
 
 /* Section Styling */
 .section-padding {
-    padding: 100px 0;
+    padding: 20px 0;
 }
 
 .section-title {
@@ -165,7 +164,7 @@ body {
 .section-subtitle {
     color: #666;
     font-size: 1.1rem;
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
 }
 
 .bg-gradient {
@@ -179,9 +178,10 @@ body {
     border-radius: 15px;
     box-shadow: 0 10px 40px rgba(0,0,0,0.08);
     transition: all 0.3s;
-    text-align: center;
+    text-align: left;
     border: 1px solid #f0f0f0;
-    height: 100%;
+    height: 420px;
+    margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
@@ -390,4 +390,11 @@ footer {
         min-height: auto;
         padding: 60px 0;
     }
+}
+
+.service-list {
+    list-style-type: none;
+    text-align: left;
+    padding-left: 0;
+    font-size: 18px;
 }
